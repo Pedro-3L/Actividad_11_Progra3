@@ -19,7 +19,7 @@ namespace Ejercicio_11
 			Console.WriteLine("Ingrese otro numero");
 			int num2 = int.Parse(Console.ReadLine());
 			int resultado = Sumar(num1, num2);
-			Console.WriteLine("Resultado: " + resultado);
+			Console.WriteLine("La suma es: " + resultado);
 		}
 	}
 }
